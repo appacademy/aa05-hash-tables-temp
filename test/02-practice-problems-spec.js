@@ -59,12 +59,12 @@ describe("Phase 2 - Hash table practice problems", function () {
     expect(common).to.include.members([0, 1, 2, 3, 4]);
   });
 
-  it("`duplicates` returns the duplicated value in an array", function () {
+  it("`duplicate` returns the duplicated value in an array", function () {
     expect(duplicate([2, 2, 1])).to.equal(2);
     expect(duplicate([7, 2, 4, 9, 5, 4, 8])).to.equal(4);
   });
 
-  it("`duplicates` runs in O(n) time", function () {
+  it("`duplicate` runs in O(n) time", function () {
     expect(duplicate([2, 2, 1])).to.equal(2);
 
     target = 1000000;
