@@ -1,17 +1,18 @@
 # Intermediate Phase 2: Hash table practice problems
 
-For each of these problems, you can use a hash table (either an `object` or
-`set`) to solve the problem in `O(n)` time. Note that once you have a working
-solution, the specs will run a test with an input of 1 million inputs. Your
-code should return in under 2 seconds with optimal time complexity.
+For each of these problems, you can use a hash table (either an `object`
+or `set`) to solve the problem in `O(n)` time. Note that once you have a
+working solution, the specs will run a test with an input of 1 million
+inputs. Your code should return in under 2 seconds with optimal time
+complexity.
 
-**HINT** If your tests are stuck, type `ctrl + c` in the terminal to cancel
-the tests.
+**HINT** If your tests are stuck, type `ctrl + c` in the terminal to
+cancel the tests.
 
 ### `Anagrams`
 
-Given two strings, determine whether the strings are anagrams of each other.
-Solve this in `O(n)` time.
+Given two strings, determine whether the strings are anagrams of each
+other.  Solve this in `O(n)` time.
 
 Example:
 
@@ -22,9 +23,9 @@ anagrams('coding', 'rocks');    // => false
 
 ### `Common Elements`
 
-Given two arrays of integers, return an array of unique integers that are
-present in both arrays. The resultant array can be returned in any order. Solve
-this in `O(n)` time.
+Given two arrays of integers, return an array of unique integers that
+are present in both arrays. The resultant array can be returned in any
+order. Solve this in `O(n)` time.
 
 Example:
 
